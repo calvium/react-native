@@ -53,6 +53,10 @@ var TextStylePropTypes = Object.assign(Object.create(ViewStylePropTypes), {
   textAlignVertical: ReactPropTypes.oneOf(
     ['auto' /*default*/, 'top', 'bottom', 'center']
   ),
+  /**
+   * @platform android
+   */
+  includeFontPadding: ReactPropTypes.bool,
   textDecorationLine: ReactPropTypes.oneOf(
     ['none' /*default*/, 'underline', 'line-through', 'underline line-through']
   ),
